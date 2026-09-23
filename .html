@@ -1,0 +1,1490 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="DINO SHOES - Tienda de calzado moderno y gestión de inventario"
+    >
+
+    <title>DINO SHOES | Tienda de Calzado</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         BARRA DE NAVEGACIÓN
+    ====================================================== -->
+
+    <header class="navbar">
+
+        <div class="nav-container">
+
+            <a href="#inicio" class="logo">
+                <span class="logo-icon">
+                    <i class="fa-solid fa-shoe-prints"></i>
+                </span>
+
+                <span>
+                    DINO <b>SHOES</b>
+                </span>
+            </a>
+
+            <nav class="nav-menu" id="navMenu">
+
+                <a href="#inicio" class="nav-link active">
+                    Inicio
+                </a>
+
+                <a href="#categorias" class="nav-link">
+                    Categorías
+                </a>
+
+                <a href="#catalogo" class="nav-link">
+                    Catálogo
+                </a>
+
+                <a href="#marcas" class="nav-link">
+                    Marcas
+                </a>
+
+                <a href="#registrar" class="nav-link">
+                    Registrar
+                </a>
+
+            </nav>
+
+            <a href="#registrar" class="nav-register">
+                <i class="fa-solid fa-plus"></i>
+                Nuevo producto
+            </a>
+
+            <button
+                class="mobile-menu-btn"
+                id="mobileMenuBtn"
+                aria-label="Abrir menú"
+            >
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- =====================================================
+             HERO
+        ====================================================== -->
+
+        <section class="hero" id="inicio">
+
+            <div class="hero-background-shape shape-one"></div>
+            <div class="hero-background-shape shape-two"></div>
+
+            <div class="hero-container">
+
+                <div class="hero-content">
+
+                    <div class="hero-badge">
+                        <span class="badge-dot"></span>
+                        NUEVA COLECCIÓN 2026
+                    </div>
+
+                    <h1>
+                        Camina con
+                        <span>tu propio</span>
+                        estilo.
+                    </h1>
+
+                    <p>
+                        Descubre tenis, botas, sandalias, tacones,
+                        zapatos casuales y mucho más. Encuentra
+                        el par perfecto para cada ocasión.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#catalogo" class="btn btn-primary">
+                            Explorar colección
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                        <a href="#categorias" class="btn btn-ghost">
+                            Ver categorías
+                        </a>
+
+                    </div>
+
+                    <div class="hero-mini-stats">
+
+                        <div>
+                            <strong id="heroProductCount">0</strong>
+                            <span>Productos</span>
+                        </div>
+
+                        <div>
+                            <strong id="heroBrandCount">0</strong>
+                            <span>Marcas</span>
+                        </div>
+
+                        <div>
+                            <strong id="heroStockCount">0</strong>
+                            <span>En stock</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-visual">
+
+                    <div class="hero-circle"></div>
+
+                    <div class="hero-image-card">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&q=85&w=1200"
+                            alt="Tenis deportivos"
+                        >
+
+                        <div class="hero-image-overlay"></div>
+
+                        <div class="hero-product-label">
+
+                            <span>DESTACADO</span>
+
+                            <strong>
+                                Sneakers Collection
+                            </strong>
+
+                            <small>
+                                Diseño • Comodidad • Estilo
+                            </small>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="floating-card floating-card-one">
+
+                        <div class="floating-icon">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+
+                        <div>
+                            <strong>+20</strong>
+                            <span>Marcas</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="floating-card floating-card-two">
+
+                        <i class="fa-solid fa-check"></i>
+
+                        <div>
+                            <strong>Calidad</strong>
+                            <span>Garantizada</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             CATEGORÍAS
+        ====================================================== -->
+
+        <section class="categories-section" id="categorias">
+
+            <div class="section-container">
+
+                <div class="section-heading">
+
+                    <div>
+                        <span class="section-label">
+                            ENCUENTRA TU ESTILO
+                        </span>
+
+                        <h2>
+                            Categorías
+                        </h2>
+                    </div>
+
+                    <p>
+                        Elige el tipo de calzado que buscas
+                        y descubre nuestra colección.
+                    </p>
+
+                </div>
+
+
+                <div class="categories-grid">
+
+                    <button class="category-card" data-category="Tenis">
+
+                        <div class="category-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&q=80&w=600"
+                                alt="Tenis"
+                            >
+                        </div>
+
+                        <div class="category-content">
+                            <span>01</span>
+                            <h3>Tenis</h3>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+
+                    </button>
+
+
+                    <button class="category-card" data-category="Deportivo">
+
+                        <div class="category-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&q=80&w=600"
+                                alt="Calzado deportivo"
+                            >
+                        </div>
+
+                        <div class="category-content">
+                            <span>02</span>
+                            <h3>Deportivo</h3>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+
+                    </button>
+
+
+                    <button class="category-card" data-category="Botas">
+
+                        <div class="category-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&q=80&w=600"
+                                alt="Botas"
+                            >
+                        </div>
+
+                        <div class="category-content">
+                            <span>03</span>
+                            <h3>Botas</h3>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+
+                    </button>
+
+
+                    <button class="category-card" data-category="Tacones">
+
+                        <div class="category-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&q=80&w=600"
+                                alt="Tacones"
+                            >
+                        </div>
+
+                        <div class="category-content">
+                            <span>04</span>
+                            <h3>Tacones</h3>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+
+                    </button>
+
+
+                    <button class="category-card" data-category="Sandalias">
+
+                        <div class="category-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1562273138-f46be4ebdf33?auto=format&fit=crop&q=80&w=600"
+                                alt="Sandalias"
+                            >
+                        </div>
+
+                        <div class="category-content">
+                            <span>05</span>
+                            <h3>Sandalias</h3>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+
+                    </button>
+
+
+                    <button class="category-card" data-category="Formal">
+
+                        <div class="category-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1614252369475-531eba835eb1?auto=format&fit=crop&q=80&w=600"
+                                alt="Zapatos formales"
+                            >
+                        </div>
+
+                        <div class="category-content">
+                            <span>06</span>
+                            <h3>Formal</h3>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             MARCAS
+        ====================================================== -->
+
+        <section class="brands-section" id="marcas">
+
+            <div class="section-container">
+
+                <div class="section-heading centered">
+
+                    <span class="section-label">
+                        GRANDES MARCAS
+                    </span>
+
+                    <h2>
+                        Encuentra tu marca favorita
+                    </h2>
+
+                    <p>
+                        Trabajamos con algunas de las marcas
+                        más reconocidas del mundo del calzado.
+                    </p>
+
+                </div>
+
+
+                <div class="brands-grid">
+
+                    <button class="brand-item" data-brand="Nike">
+                        <span>NIKE</span>
+                    </button>
+
+                    <button class="brand-item" data-brand="Adidas">
+                        <span>adidas</span>
+                    </button>
+
+                    <button class="brand-item" data-brand="Jordan">
+                        <span>JORDAN</span>
+                    </button>
+
+                    <button class="brand-item" data-brand="Puma">
+                        <span>PUMA</span>
+                    </button>
+
+                    <button class="brand-item" data-brand="New Balance">
+                        <span>NEW BALANCE</span>
+                    </button>
+
+                    <button class="brand-item" data-brand="Vans">
+                        <span>VANS</span>
+                    </button>
+
+                    <button class="brand-item" data-brand="Converse">
+                        <span>CONVERSE</span>
+                    </button>
+
+                    <button class="brand-item" data-brand="Skechers">
+                        <span>SKECHERS</span>
+                    </button>
+
+                    <button class="brand-item" data-brand="Reebok">
+                        <span>REEBOK</span>
+                    </button>
+
+                    <button class="brand-item" data-brand="Asics">
+                        <span>ASICS</span>
+                    </button>
+
+                    <button class="brand-item" data-brand="Fila">
+                        <span>FILA</span>
+                    </button>
+
+                    <button class="brand-item" data-brand="Timberland">
+                        <span>TIMBERLAND</span>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             ESTADÍSTICAS
+        ====================================================== -->
+
+        <section class="stats-section">
+
+            <div class="section-container">
+
+                <div class="stats-header">
+
+                    <div>
+                        <span class="section-label">
+                            DINO SHOES
+                        </span>
+
+                        <h2>
+                            Tu inventario en un solo lugar.
+                        </h2>
+                    </div>
+
+                    <p>
+                        Administra tus productos de manera
+                        rápida, sencilla y organizada.
+                    </p>
+
+                </div>
+
+
+                <div class="dashboard-grid">
+
+                    <div class="dashboard-card">
+
+                        <div class="dashboard-icon purple">
+                            <i class="fa-solid fa-box"></i>
+                        </div>
+
+                        <div>
+                            <span>PRODUCTOS</span>
+                            <strong id="totalProducts">0</strong>
+                        </div>
+
+                    </div>
+
+
+                    <div class="dashboard-card">
+
+                        <div class="dashboard-icon pink">
+                            <i class="fa-solid fa-layer-group"></i>
+                        </div>
+
+                        <div>
+                            <span>UNIDADES</span>
+                            <strong id="totalStock">0</strong>
+                        </div>
+
+                    </div>
+
+
+                    <div class="dashboard-card">
+
+                        <div class="dashboard-icon blue">
+                            <i class="fa-solid fa-tags"></i>
+                        </div>
+
+                        <div>
+                            <span>MARCAS</span>
+                            <strong id="totalBrands">0</strong>
+                        </div>
+
+                    </div>
+
+
+                    <div class="dashboard-card">
+
+                        <div class="dashboard-icon orange">
+                            <i class="fa-solid fa-coins"></i>
+                        </div>
+
+                        <div>
+                            <span>VALOR INVENTARIO</span>
+                            <strong id="inventoryValue">Q 0.00</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             CATÁLOGO
+        ====================================================== -->
+
+        <section class="catalog-section" id="catalogo">
+
+            <div class="section-container">
+
+                <div class="catalog-top">
+
+                    <div>
+
+                        <span class="section-label">
+                            COLECCIÓN DINO SHOES
+                        </span>
+
+                        <h2>
+                            Nuestro catálogo
+                        </h2>
+
+                        <p>
+                            Explora todos nuestros productos disponibles.
+                        </p>
+
+                    </div>
+
+                    <div class="catalog-count">
+                        <strong id="catalogCount">0</strong>
+                        <span>productos encontrados</span>
+                    </div>
+
+                </div>
+
+
+                <!-- FILTROS -->
+
+                <div class="filters-box">
+
+                    <div class="search-box">
+
+                        <i class="fa-solid fa-magnifying-glass"></i>
+
+                        <input
+                            type="search"
+                            id="searchInput"
+                            placeholder="Buscar por nombre, marca, color..."
+                            autocomplete="off"
+                        >
+
+                    </div>
+
+
+                    <select id="brandFilter">
+                        <option value="all">
+                            Todas las marcas
+                        </option>
+                    </select>
+
+
+                    <select id="categoryFilter">
+
+                        <option value="all">
+                            Todas las categorías
+                        </option>
+
+                    </select>
+
+
+                    <select id="sizeFilter">
+
+                        <option value="all">
+                            Todas las tallas
+                        </option>
+
+                    </select>
+
+
+                    <select id="sortFilter">
+
+                        <option value="default">
+                            Ordenar por
+                        </option>
+
+                        <option value="price-low">
+                            Precio menor
+                        </option>
+
+                        <option value="price-high">
+                            Precio mayor
+                        </option>
+
+                        <option value="name">
+                            Nombre A-Z
+                        </option>
+
+                        <option value="stock">
+                            Mayor stock
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="active-filters" id="activeFilters">
+                </div>
+
+
+                <!-- PRODUCTOS -->
+
+                <div
+                    class="products-grid"
+                    id="productsContainer"
+                >
+                </div>
+
+
+                <!-- ESTADO VACÍO -->
+
+                <div
+                    class="empty-state"
+                    id="emptyState"
+                >
+
+                    <div class="empty-icon">
+                        <i class="fa-solid fa-shoe-prints"></i>
+                    </div>
+
+                    <h3>
+                        No encontramos productos
+                    </h3>
+
+                    <p>
+                        Intenta cambiar los filtros o registra
+                        un nuevo producto.
+                    </p>
+
+                    <button
+                        class="btn btn-primary"
+                        id="clearFiltersBtn"
+                    >
+                        Limpiar filtros
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             REGISTRAR PRODUCTO
+        ====================================================== -->
+
+        <section class="register-section" id="registrar">
+
+            <div class="section-container">
+
+                <div class="register-wrapper">
+
+                    <div class="register-intro">
+
+                        <span class="section-label">
+                            GESTIÓN DE INVENTARIO
+                        </span>
+
+                        <h2>
+                            Agrega un nuevo
+                            <span>par.</span>
+                        </h2>
+
+                        <p>
+                            Registra cada producto de DINO SHOES
+                            con toda la información necesaria:
+                            marca, categoría, talla, color,
+                            precio, stock e imagen.
+                        </p>
+
+
+                        <div class="register-features">
+
+                            <div>
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Más de 20 marcas</span>
+                            </div>
+
+                            <div>
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Tallas del 28 al 45</span>
+                            </div>
+
+                            <div>
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Imágenes personalizadas</span>
+                            </div>
+
+                            <div>
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Inventario automático</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- FORMULARIO -->
+
+                    <form
+                        class="product-form"
+                        id="productForm"
+                    >
+
+                        <div class="form-heading">
+
+                            <div class="form-heading-icon">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+
+                            <div>
+                                <span>REGISTRO</span>
+                                <h3>Nuevo producto</h3>
+                            </div>
+
+                        </div>
+
+
+                        <!-- IMAGEN -->
+
+                        <div class="upload-section">
+
+                            <div
+                                class="image-preview"
+                                id="imagePreview"
+                            >
+
+                                <div id="previewPlaceholder">
+
+                                    <i class="fa-solid fa-camera"></i>
+
+                                    <span>
+                                        Imagen del producto
+                                    </span>
+
+                                    <small>
+                                        JPG, PNG o WEBP
+                                    </small>
+
+                                </div>
+
+                                <img
+                                    id="previewImage"
+                                    alt="Vista previa"
+                                    hidden
+                                >
+
+                            </div>
+
+
+                            <div class="upload-info">
+
+                                <h4>
+                                    Fotografía del producto
+                                </h4>
+
+                                <p>
+                                    Sube una fotografía para que
+                                    aparezca en el catálogo.
+                                </p>
+
+                                <label
+                                    for="productImage"
+                                    class="upload-button"
+                                >
+                                    <i class="fa-solid fa-upload"></i>
+                                    Seleccionar imagen
+                                </label>
+
+                                <input
+                                    type="file"
+                                    id="productImage"
+                                    accept="image/png,image/jpeg,image/webp"
+                                    hidden
+                                >
+
+                                <button
+                                    type="button"
+                                    class="remove-image"
+                                    id="removeImageBtn"
+                                    hidden
+                                >
+                                    <i class="fa-solid fa-xmark"></i>
+                                    Quitar imagen
+                                </button>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- DATOS -->
+
+                        <div class="form-grid">
+
+                            <div class="form-group full">
+
+                                <label for="productName">
+                                    Nombre del producto
+                                </label>
+
+                                <div class="input-wrapper">
+
+                                    <i class="fa-solid fa-shoe-prints"></i>
+
+                                    <input
+                                        type="text"
+                                        id="productName"
+                                        placeholder="Ej. Air Max 270"
+                                        required
+                                        maxlength="80"
+                                    >
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="productBrand">
+                                    Marca
+                                </label>
+
+                                <div class="input-wrapper">
+
+                                    <i class="fa-solid fa-copyright"></i>
+
+                                    <select
+                                        id="productBrand"
+                                        required
+                                    >
+
+                                        <option value="">
+                                            Selecciona una marca
+                                        </option>
+
+                                    </select>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="productCategory">
+                                    Tipo de calzado
+                                </label>
+
+                                <div class="input-wrapper">
+
+                                    <i class="fa-solid fa-layer-group"></i>
+
+                                    <select
+                                        id="productCategory"
+                                        required
+                                    >
+
+                                        <option value="">
+                                            Selecciona categoría
+                                        </option>
+
+                                    </select>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="productSize">
+                                    Talla
+                                </label>
+
+                                <div class="input-wrapper">
+
+                                    <i class="fa-solid fa-ruler-horizontal"></i>
+
+                                    <select
+                                        id="productSize"
+                                        required
+                                    >
+
+                                        <option value="">
+                                            Selecciona talla
+                                        </option>
+
+                                    </select>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="productGender">
+                                    Público
+                                </label>
+
+                                <div class="input-wrapper">
+
+                                    <i class="fa-solid fa-users"></i>
+
+                                    <select
+                                        id="productGender"
+                                        required
+                                    >
+
+                                        <option value="">
+                                            Selecciona
+                                        </option>
+
+                                        <option value="Mujer">
+                                            Mujer
+                                        </option>
+
+                                        <option value="Hombre">
+                                            Hombre
+                                        </option>
+
+                                        <option value="Unisex">
+                                            Unisex
+                                        </option>
+
+                                        <option value="Niños">
+                                            Niños
+                                        </option>
+
+                                    </select>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="productColor">
+                                    Color
+                                </label>
+
+                                <div class="input-wrapper">
+
+                                    <i class="fa-solid fa-palette"></i>
+
+                                    <input
+                                        type="text"
+                                        id="productColor"
+                                        placeholder="Ej. Blanco / Negro"
+                                        required
+                                        maxlength="40"
+                                    >
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="productPrice">
+                                    Precio
+                                </label>
+
+                                <div class="input-wrapper">
+
+                                    <span class="currency">
+                                        Q
+                                    </span>
+
+                                    <input
+                                        type="number"
+                                        id="productPrice"
+                                        placeholder="0.00"
+                                        min="0"
+                                        step="0.01"
+                                        required
+                                    >
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="productStock">
+                                    Existencias
+                                </label>
+
+                                <div class="input-wrapper">
+
+                                    <i class="fa-solid fa-boxes-stacked"></i>
+
+                                    <input
+                                        type="number"
+                                        id="productStock"
+                                        placeholder="0"
+                                        min="0"
+                                        step="1"
+                                        required
+                                    >
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="form-actions">
+
+                            <button
+                                type="reset"
+                                class="btn btn-secondary"
+                            >
+                                <i class="fa-solid fa-rotate-left"></i>
+                                Limpiar
+                            </button>
+
+                            <button
+                                type="submit"
+                                class="btn btn-primary"
+                            >
+                                <i class="fa-solid fa-plus"></i>
+                                Registrar producto
+                            </button>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         MODAL EDITAR
+    ====================================================== -->
+
+    <div
+        class="modal-overlay"
+        id="editModal"
+        hidden
+    >
+
+        <div class="modal">
+
+            <div class="modal-header">
+
+                <div class="modal-title">
+
+                    <div class="modal-icon">
+                        <i class="fa-solid fa-pen"></i>
+                    </div>
+
+                    <div>
+                        <span>GESTIÓN</span>
+                        <h3>Editar producto</h3>
+                    </div>
+
+                </div>
+
+                <button
+                    class="close-modal"
+                    id="closeModal"
+                    type="button"
+                    aria-label="Cerrar"
+                >
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+
+            </div>
+
+
+            <form id="editForm">
+
+                <input
+                    type="hidden"
+                    id="editProductId"
+                >
+
+
+                <div class="edit-image-section">
+
+                    <div class="edit-image-preview">
+
+                        <img
+                            id="editPreviewImage"
+                            src=""
+                            alt="Imagen del producto"
+                        >
+
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            Fotografía
+                        </strong>
+
+                        <p>
+                            Cambia la imagen si lo necesitas.
+                        </p>
+
+                        <label
+                            for="editProductImage"
+                            class="change-image-btn"
+                        >
+                            <i class="fa-solid fa-camera"></i>
+                            Cambiar imagen
+                        </label>
+
+                        <input
+                            type="file"
+                            id="editProductImage"
+                            accept="image/png,image/jpeg,image/webp"
+                            hidden
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-grid">
+
+                    <div class="form-group full">
+
+                        <label for="editProductName">
+                            Nombre
+                        </label>
+
+                        <input
+                            type="text"
+                            id="editProductName"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="editProductBrand">
+                            Marca
+                        </label>
+
+                        <select
+                            id="editProductBrand"
+                            required
+                        ></select>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="editProductCategory">
+                            Categoría
+                        </label>
+
+                        <select
+                            id="editProductCategory"
+                            required
+                        ></select>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="editProductSize">
+                            Talla
+                        </label>
+
+                        <select
+                            id="editProductSize"
+                            required
+                        ></select>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="editProductGender">
+                            Público
+                        </label>
+
+                        <select
+                            id="editProductGender"
+                            required
+                        >
+
+                            <option value="Mujer">
+                                Mujer
+                            </option>
+
+                            <option value="Hombre">
+                                Hombre
+                            </option>
+
+                            <option value="Unisex">
+                                Unisex
+                            </option>
+
+                            <option value="Niños">
+                                Niños
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="editProductColor">
+                            Color
+                        </label>
+
+                        <input
+                            type="text"
+                            id="editProductColor"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="editProductPrice">
+                            Precio Q
+                        </label>
+
+                        <input
+                            type="number"
+                            id="editProductPrice"
+                            min="0"
+                            step="0.01"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="editProductStock">
+                            Stock
+                        </label>
+
+                        <input
+                            type="number"
+                            id="editProductStock"
+                            min="0"
+                            step="1"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="modal-actions">
+
+                    <button
+                        type="button"
+                        class="btn btn-secondary"
+                        id="cancelEdit"
+                    >
+                        Cancelar
+                    </button>
+
+                    <button
+                        type="submit"
+                        class="btn btn-primary"
+                    >
+                        <i class="fa-solid fa-floppy-disk"></i>
+                        Guardar cambios
+                    </button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         MODAL ELIMINAR
+    ====================================================== -->
+
+    <div
+        class="modal-overlay"
+        id="deleteModal"
+        hidden
+    >
+
+        <div class="confirm-modal">
+
+            <div class="confirm-icon">
+                <i class="fa-solid fa-trash"></i>
+            </div>
+
+            <h3>
+                ¿Eliminar producto?
+            </h3>
+
+            <p>
+                Esta acción eliminará el producto
+                del inventario.
+            </p>
+
+            <div class="modal-actions">
+
+                <button
+                    type="button"
+                    class="btn btn-secondary"
+                    id="cancelDelete"
+                >
+                    Cancelar
+                </button>
+
+                <button
+                    type="button"
+                    class="btn btn-danger"
+                    id="confirmDelete"
+                >
+                    <i class="fa-solid fa-trash"></i>
+                    Eliminar
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         TOAST
+    ====================================================== -->
+
+    <div
+        class="toast-container"
+        id="toastContainer"
+    ></div>
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-brand">
+
+                <a href="#inicio" class="logo footer-logo">
+
+                    <span class="logo-icon">
+                        <i class="fa-solid fa-shoe-prints"></i>
+                    </span>
+
+                    <span>
+                        DINO <b>SHOES</b>
+                    </span>
+
+                </a>
+
+                <p>
+                    Tu estilo comienza con el par correcto.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="#inicio">
+                    Inicio
+                </a>
+
+                <a href="#catalogo">
+                    Catálogo
+                </a>
+
+                <a href="#categorias">
+                    Categorías
+                </a>
+
+                <a href="#registrar">
+                    Registrar
+                </a>
+
+            </div>
+
+
+            <div class="footer-copy">
+
+                <span>
+                    © 2026 DINO SHOES
+                </span>
+
+                <span>
+                    Hecho con pasión por el calzado.
+                </span>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="js/app.js"></script>
+    <script src="css/estilos.css"></script>
+
+</body>
+</html>
